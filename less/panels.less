@@ -14,6 +14,8 @@
 
 // Panel contents
 .panel-body {
+  border: 1px solid @gray-light;
+  border-radius: 3px;
   padding: @panel-body-padding;
   &:extend(.clearfix all);
 }
@@ -21,7 +23,7 @@
 // Optional heading
 .panel-heading {
   padding: @panel-heading-padding;
-  border-bottom: 1px solid transparent;
+  border: 1px solid transparent;
   .border-top-radius((@panel-border-radius - 1));
 
   > .dropdown .dropdown-toggle {
