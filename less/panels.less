@@ -14,7 +14,7 @@
 
 // Panel contents
 .panel-body {
-  border: 1px solid @gray-light;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: @panel-body-padding;
   &:extend(.clearfix all);
@@ -23,7 +23,7 @@
 // Optional heading
 .panel-heading {
   padding: @panel-heading-padding;
-  border: 1px solid transparent;
+  border: 1px solid @brand-primary;
   .border-top-radius((@panel-border-radius - 1));
 
   > .dropdown .dropdown-toggle {
@@ -52,7 +52,18 @@
   padding: @panel-footer-padding;
   background-color: @panel-footer-bg;
   border-top: 1px solid @panel-inner-border;
+  font-size: @font-size-small;
   .border-bottom-radius((@panel-border-radius - 1));
+  
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  
+    /*width: 100%;
+    background-color: #F8F8F8;
+*/
 }
 
 
