@@ -4162,7 +4162,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: right;
+    float: left;
   }
 }
 .navbar-collapse {
@@ -5465,14 +5465,6 @@ button.list-group-item-danger.active:focus {
   font-size: 15px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
-  /*width: 100%;
-    background-color: #F8F8F8;
-*/
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
