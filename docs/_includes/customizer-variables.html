@@ -31,7 +31,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@brand-primary">@brand-primary</label>
-    <input id="input-@brand-primary" type="text" value="darken(#428bca, 6.5%)" data-var="@brand-primary" class="form-control"/>
+    <input id="input-@brand-primary" type="text" value="#46ADE4" data-var="@brand-primary" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@brand-success">@brand-success</label>
@@ -56,7 +56,7 @@
 <div class="row">
   <div class="col-xs-4">
     <label for="input-@body-bg">@body-bg</label>
-    <input id="input-@body-bg" type="text" aria-describedby="help-block-@body-bg" value="#fff" data-var="@body-bg" class="form-control"/>
+    <input id="input-@body-bg" type="text" aria-describedby="help-block-@body-bg" value="lighten(@gray-base, 97.5%)" data-var="@body-bg" class="form-control"/>
     <p id="help-block-@body-bg" class="help-block">Background color for <code>&lt;body&gt;</code>.</p>
   </div>
   <div class="col-xs-4">
@@ -100,11 +100,11 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@font-family-base">@font-family-base</label>
-    <input id="input-@font-family-base" type="text" value="@font-family-sans-serif" data-var="@font-family-base" class="form-control"/>
+    <input id="input-@font-family-base" type="text" value="&quot;Montserrat&quot;, Helvetica, Arial" data-var="@font-family-base" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@font-size-base">@font-size-base</label>
-    <input id="input-@font-size-base" type="text" value="14px" data-var="@font-size-base" class="form-control"/>
+    <input id="input-@font-size-base" type="text" value="17px" data-var="@font-size-base" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@font-size-large">@font-size-large</label>
@@ -329,7 +329,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-default-border">@btn-default-border</label>
-    <input id="input-@btn-default-border" type="text" value="#8E90E7" data-var="@btn-default-border" class="form-control"/>
+    <input id="input-@btn-default-border" type="text" value="#46ADE4" data-var="@btn-default-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-primary-color">@btn-primary-color</label>
@@ -342,7 +342,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-primary-border">@btn-primary-border</label>
-    <input id="input-@btn-primary-border" type="text" value="darken(@btn-default-border, 25%)" data-var="@btn-primary-border" class="form-control"/>
+    <input id="input-@btn-primary-border" type="text" value="#46ADE4" data-var="@btn-primary-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-success-color">@btn-success-color</label>
@@ -1540,10 +1540,6 @@
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
-    <label for="input-@panel-footer-bg">@panel-footer-bg</label>
-    <input id="input-@panel-footer-bg" type="text" value="#f5f5f5" data-var="@panel-footer-bg" class="form-control"/>
-  </div>
-  <div class="col-xs-4">
     <label for="input-@panel-default-text">@panel-default-text</label>
     <input id="input-@panel-default-text" type="text" value="@gray-dark" data-var="@panel-default-text" class="form-control"/>
   </div>
@@ -1551,24 +1547,24 @@
     <label for="input-@panel-default-border">@panel-default-border</label>
     <input id="input-@panel-default-border" type="text" value="#ddd" data-var="@panel-default-border" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-default-heading-bg">@panel-default-heading-bg</label>
     <input id="input-@panel-default-heading-bg" type="text" value="#f5f5f5" data-var="@panel-default-heading-bg" class="form-control"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-primary-text">@panel-primary-text</label>
-    <input id="input-@panel-primary-text" type="text" value="darken(#8E90E7, 25%)" data-var="@panel-primary-text" class="form-control"/>
+    <input id="input-@panel-primary-text" type="text" value="@gray-base" data-var="@panel-primary-text" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@panel-primary-border">@panel-primary-border</label>
-    <input id="input-@panel-primary-border" type="text" value="0px" data-var="@panel-primary-border" class="form-control"/>
+    <input id="input-@panel-primary-border" type="text" value="#46ADE4" data-var="@panel-primary-border" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-primary-heading-bg">@panel-primary-heading-bg</label>
-    <input id="input-@panel-primary-heading-bg" type="text" value="#fff" data-var="@panel-primary-heading-bg" class="form-control"/>
+    <input id="input-@panel-primary-heading-bg" type="text" value="@gray-lighter" data-var="@panel-primary-heading-bg" class="form-control"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-success-text">@panel-success-text</label>
     <input id="input-@panel-success-text" type="text" value="@state-success-text" data-var="@panel-success-text" class="form-control"/>
@@ -1577,11 +1573,11 @@
     <label for="input-@panel-success-border">@panel-success-border</label>
     <input id="input-@panel-success-border" type="text" value="@state-success-border" data-var="@panel-success-border" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-success-heading-bg">@panel-success-heading-bg</label>
     <input id="input-@panel-success-heading-bg" type="text" value="@state-success-bg" data-var="@panel-success-heading-bg" class="form-control"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-info-text">@panel-info-text</label>
     <input id="input-@panel-info-text" type="text" value="@state-info-text" data-var="@panel-info-text" class="form-control"/>
@@ -1590,11 +1586,11 @@
     <label for="input-@panel-info-border">@panel-info-border</label>
     <input id="input-@panel-info-border" type="text" value="@state-info-border" data-var="@panel-info-border" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-info-heading-bg">@panel-info-heading-bg</label>
     <input id="input-@panel-info-heading-bg" type="text" value="@state-info-bg" data-var="@panel-info-heading-bg" class="form-control"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-warning-text">@panel-warning-text</label>
     <input id="input-@panel-warning-text" type="text" value="@state-warning-text" data-var="@panel-warning-text" class="form-control"/>
@@ -1603,11 +1599,11 @@
     <label for="input-@panel-warning-border">@panel-warning-border</label>
     <input id="input-@panel-warning-border" type="text" value="@state-warning-border" data-var="@panel-warning-border" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-warning-heading-bg">@panel-warning-heading-bg</label>
     <input id="input-@panel-warning-heading-bg" type="text" value="@state-warning-bg" data-var="@panel-warning-heading-bg" class="form-control"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-danger-text">@panel-danger-text</label>
     <input id="input-@panel-danger-text" type="text" value="@state-danger-text" data-var="@panel-danger-text" class="form-control"/>
@@ -1616,7 +1612,6 @@
     <label for="input-@panel-danger-border">@panel-danger-border</label>
     <input id="input-@panel-danger-border" type="text" value="@state-danger-border" data-var="@panel-danger-border" class="form-control"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@panel-danger-heading-bg">@panel-danger-heading-bg</label>
     <input id="input-@panel-danger-heading-bg" type="text" value="@state-danger-bg" data-var="@panel-danger-heading-bg" class="form-control"/>
@@ -1660,7 +1655,7 @@
 <div class="row">
   <div class="col-xs-4">
     <label for="input-@well-bg">@well-bg</label>
-    <input id="input-@well-bg" type="text" value="#fff" data-var="@well-bg" class="form-control"/>
+    <input id="input-@well-bg" type="text" value="lighten(@gray-base, 97.5%)" data-var="@well-bg" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@well-border">@well-border</label>
