@@ -65,6 +65,7 @@
 
 .btn-default {
   .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+  overflow: hidden;
 }
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
@@ -86,6 +87,27 @@
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
 }
 
+// Logger buttons
+// --------------------------------------------------
+.btn.btn-log.btn-danger {
+	.button-variant(@btn-log-color; @btn-log-danger-bg; @btn-log-danger-border);
+}
+
+.btn.btn-log.btn-warning {
+	.button-variant(@btn-log-color; @btn-warning-bg; @btn-warning-border);
+}
+
+.btn.btn-log.btn-info {
+	.button-variant(@btn-log-color; @btn-log-info-bg; @btn-log-info-border);
+}
+
+.btn.btn-log.btn-success {
+	.button-variant(@btn-log-color; @btn-success-bg; @btn-success-border);
+}
+
+.btn.btn-log.btn-primary {
+	.button-variant(@btn-log-color; @btn-log-primary-bg; @btn-log-primary-border);
+}
 
 // Link buttons
 // -------------------------
